@@ -1,0 +1,59 @@
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: 'Eurostile-Medium';
+  src: url('Eurostile-Medium.woff') format('woff'),
+       url('Eurostile-Medium.ttf') format('truetype'),
+       url('Eurostile-Medium.svg#Eurostile-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EurostileMedium';
+  src: url('EurostileMedium.eot');
+  src: url('EurostileMedium.woff2') format('woff2'),
+       url('EurostileMedium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EurostileRegular';
+  src: url('EurostileRegular.woff') format('woff'),
+       url('EurostileRegular.ttf') format('truetype'),
+       url('EurostileRegular.svg#EurostileRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'films.eurostile';
+  src: url('films.eurostile.eot');
+  src: url('films.eurostile.woff2') format('woff2'),
+       url('films.eurostile.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

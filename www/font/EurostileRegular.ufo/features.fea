@@ -1,0 +1,37 @@
+
+
+@GDEF_Simple = [\glyph1 \glyph2 \space \uni00A0 \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P 
+	\Q \R \S \T \U \V \W \X \Y \Z \AE \OE \Oslash \Ccedilla \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o 
+	\p \q \r \s \t \u \v \w \x \y \z \ae \oe \oslash \germandbls \dotlessi \fi \fl \ccedilla 
+	\one \two \three \four \five \six \seven \eight \nine \zero \sterling \dollar \cent 
+	\florin \yen \period \colon \periodcentered \ellipsis \comma \semicolon 
+	\quoteleft \quotedblright \quotedblleft \quotedblbase \exclam \exclamdown 
+	\question \questiondown \guillemotright \guillemotleft \guilsinglright 
+	\guilsinglleft \slash \hyphen \endash \emdash \parenleft \parenright 
+	\bracketleft \bracketright \ampersand \section \dagger \daggerdbl \asterisk 
+	\quotesingle \quotedbl \at \numbersign \degree \plus \divide \equal \trademark 
+	\paragraph \currency \quotesinglbase \quoteright \braceleft \braceright 
+	\ordfeminine \ordmasculine \plusminus \fraction \percent \perthousand 
+	\backslash \dieresis \dotaccent \ring \acute \grave \circumflex \caron \breve 
+	\tilde \hungarumlaut \cedilla \ogonek \macron \copyright \registered \bullet 
+	\lozenge \Delta \notequal \radical \integral \approxequal \less \greater 
+	\lessequal \greaterequal \logicalnot \infinity \product \summation 
+	\partialdiff \asciicircum \bar \underscore \pi \asciitilde \mu \Omega \Adieresis 
+	\Aacute \Agrave \Acircumflex \Atilde \Aring \Edieresis \Eacute \Egrave 
+	\Ecircumflex \Idieresis \Iacute \Igrave \Icircumflex \Ntilde \Odieresis \Oacute 
+	\Ograve \Ocircumflex \Otilde \Udieresis \Uacute \Ugrave \Ucircumflex \Ydieresis 
+	\adieresis \aacute \agrave \acircumflex \atilde \aring \edieresis \eacute 
+	\egrave \ecircumflex \idieresis \iacute \igrave \icircumflex \ntilde \odieresis 
+	\oacute \ograve \ocircumflex \otilde \udieresis \uacute \ugrave \ucircumflex 
+	\ydieresis \Eth \Thorn \eth \thorn \onesuperior \twosuperior \threesuperior 
+	\multiply \onehalf \onequarter \threequarters \brokenbar \glyph237 \glyph238 
+	\glyph239 \glyph240 \glyph241 \glyph242 \glyph243 \glyph244 \glyph245 \glyph246 
+	\glyph247 \glyph248 \glyph249 \glyph250 \glyph251 \glyph252 \glyph253 \glyph254 
+	\glyph255 \glyph256 \glyph257 \Scaron \glyph259 \glyph260 \glyph261 \glyph262 
+	\glyph263 \Yacute \glyph265 \glyph266 \glyph267 \scaron \yacute ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+

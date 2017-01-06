@@ -1,0 +1,150 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+
+# GPOS 
+
+
+lookup kernHorizontalKerninginLatinlookup0 {
+  lookupflag 0;
+    pos \A \quoteright -100;
+    pos \A \y -10;
+    pos \A \w -40;
+    pos \A \v -40;
+    pos \A \Y -85;
+    pos \A \W -62;
+    pos \A \V -66;
+    pos \A \T -60;
+    pos \F \A -43;
+    pos \F \period -140;
+    pos \F \comma -140;
+    pos \L \quoteright -100;
+    pos \L \y -35;
+    pos \L \Y -81;
+    pos \L \W -34;
+    pos \L \V -46;
+    pos \L \T -77;
+    pos \P \A -55;
+    pos \P \period -250;
+    pos \P \comma -250;
+    pos \R \y 13;
+    pos \R \Y -6;
+    pos \R \T -5;
+    pos \T \y -63;
+    pos \T \w -57;
+    pos \T \u -94;
+    pos \T \s -94;
+    pos \T \r -68;
+    pos \T \o -94;
+    pos \T \i 11;
+    pos \T \e -94;
+    pos \T \c -94;
+    pos \T \a -94;
+    pos \T \A -56;
+    pos \T \semicolon -80;
+    pos \T \colon -80;
+    pos \T \period -160;
+    pos \T \hyphen -60;
+    pos \T \comma -160;
+    pos \V \y -14;
+    pos \V \u -45;
+    pos \V \r -41;
+    pos \V \o -60;
+    pos \V \i -2;
+    pos \V \e -60;
+    pos \V \a -60;
+    pos \V \A -61;
+    pos \V \semicolon -60;
+    pos \V \colon -60;
+    pos \V \period -150;
+    pos \V \hyphen -30;
+    pos \V \comma -150;
+    pos \W \y -13;
+    pos \W \u -44;
+    pos \W \r -40;
+    pos \W \o -56;
+    pos \W \i 9;
+    pos \W \e -57;
+    pos \W \a -56;
+    pos \W \A -62;
+    pos \W \semicolon -50;
+    pos \W \colon -50;
+    pos \W \period -130;
+    pos \W \comma -130;
+    pos \Y \v -60;
+    pos \Y \u -98;
+    pos \Y \q -110;
+    pos \Y \p -93;
+    pos \Y \o -110;
+    pos \Y \i 5;
+    pos \Y \e -110;
+    pos \Y \a -110;
+    pos \Y \A -85;
+    pos \Y \semicolon -60;
+    pos \Y \colon -60;
+    pos \Y \period -150;
+    pos \Y \hyphen -70;
+    pos \Y \comma -150;
+    pos \f \quoteright 30;
+    pos \f \f 14;
+    pos \r \z 1;
+    pos \r \y 28;
+    pos \r \x 15;
+    pos \r \w 34;
+    pos \r \v 35;
+    pos \r \t 36;
+    pos \r \h 20;
+    pos \r \f 20;
+    pos \r \period -120;
+    pos \r \hyphen 20;
+    pos \r \comma -150;
+    pos \v \period -100;
+    pos \v \comma -100;
+    pos \w \period -90;
+    pos \w \comma -90;
+    pos \y \period -90;
+    pos \y \comma -90;
+    pos \quoteleft \quoteleft -52;
+    pos \quoteright \quoteright -52;
+    pos \quoteright \s -40;
+} kernHorizontalKerninginLatinlookup0;
+
+feature kern {
+
+ script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinlookup0;
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinlookup0;
+} kern;
+
+@GDEF_Simple = [\space \exclam \quotedbl \numbersign \dollar \percent \ampersand 
+	\quotesingle \parenleft \parenright \asterisk \plus \comma \hyphen \period 
+	\slash \zero \one \two \three \four \five \six \seven \eight \nine \colon \semicolon 
+	\less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T 
+	\U \V \W \X \Y \Z \bracketleft \backslash \bracketright \asciicircum \underscore 
+	\grave \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft \bar 
+	\braceright \asciitilde \quotesinglbase \florin \quotedblbase \ellipsis 
+	\dagger \daggerdbl \circumflex \perthousand \Scaron \guilsinglleft \OE 
+	\quoteleft \quoteright \quotedblleft \quotedblright \bullet \endash \emdash 
+	\tilde \trademark \scaron \guilsinglright \oe \Ydieresis \exclamdown \cent 
+	\sterling \currency \yen \brokenbar \section \dieresis \copyright \ordfeminine 
+	\guillemotleft \logicalnot \minus \registered \macron \degree \plusminus 
+	\twosuperior \threesuperior \acute \mu \paragraph \periodcentered \cedilla 
+	\onesuperior \ordmasculine \guillemotright \onequarter \onehalf 
+	\threequarters \questiondown \Agrave \Aacute \Acircumflex \Atilde \Adieresis 
+	\Aring \AE \Ccedilla \Egrave \Eacute \Ecircumflex \Edieresis \Igrave \Iacute 
+	\Icircumflex \Idieresis \Eth \Ntilde \Ograve \Oacute \Ocircumflex \Otilde 
+	\Odieresis \multiply \Oslash \Ugrave \Uacute \Ucircumflex \Udieresis \Yacute 
+	\Thorn \germandbls \agrave \aacute \acircumflex \atilde \adieresis \aring \ae 
+	\ccedilla \egrave \eacute \ecircumflex \edieresis \igrave \iacute \icircumflex 
+	\idieresis \eth \ntilde \ograve \oacute \ocircumflex \otilde \odieresis \divide 
+	\oslash \ugrave \uacute \ucircumflex \udieresis \yacute \thorn \ydieresis ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+
